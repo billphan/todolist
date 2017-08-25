@@ -13,3 +13,10 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - It should have a function to add todos.
 - It should have a function to change todos.
 - It should have a function to delete todos.
+
+## Version 3.0 Requirements
+- It hsould store the todos array on an object.
+- It should have a displayTodos method.
+- It should have an addTodo method.
+- It should have a changeTodo method.
+- It should have a deleteTodo method.
