@@ -6,7 +6,7 @@ var todoList = {
   addTodo: function(todoText) {
     this.todos.push({
       // todoList.addTodo should add objects.
-      // name of the property: referring to todoText parameter.
+      // first todoText - name of the property: second todoText - referring to todoText parameter.
       todoText: todoText,
       completed: false
     });
