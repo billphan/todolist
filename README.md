@@ -20,3 +20,8 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - It should have an addTodo method.
 - It should have a changeTodo method.
 - It should have a deleteTodo method.
+
+## Version 4.0 Requirements
+- todoList.addTodo should add objects.
+- todoList.changeTodo should change the todoText property.
+- todoList.toggleCompleted should change the completed property.
