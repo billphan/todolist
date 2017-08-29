@@ -15,7 +15,7 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - It should have a function to delete todos.
 
 ## Version 3.0 Requirements
-- It hsould store the todos array on an object.
+- It should store the todos array on an object.
 - It should have a displayTodos method.
 - It should have an addTodo method.
 - It should have a changeTodo method.
@@ -25,3 +25,8 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - todoList.addTodo should add objects.
 - todoList.changeTodo should change the todoText property.
 - todoList.toggleCompleted should change the completed property.
+
+## Version 5.0 Requirements
+- .displayTodos should show .todoText
+- .displayTodos should tell you if .todos is empty.
+- .displayTodos should show .completed
