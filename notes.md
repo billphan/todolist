@@ -169,3 +169,15 @@ When using a function, the input in the parenthesis are called 'arguments' not '
 			//console.log(i);
 			console.log(testArray[i]);
 		}
+
+### If Statements
+- If and else statements add logic to a program.
+
+    if (condition) {
+      // code that runs if condition is true
+    } else {
+      // code that runs if condition is false
+    }
+
+- You can use multiple if and else statements in an if block.
+- If-Else statements.
