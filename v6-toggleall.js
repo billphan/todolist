@@ -49,5 +49,6 @@ var todoList = {
         this.todos[i].completed = false;
       }
     }
+    this.displayTodos();
   }
 };
