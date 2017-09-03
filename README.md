@@ -30,3 +30,7 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - .displayTodos should show .todoText
 - .displayTodos should tell you if .todos is empty.
 - .displayTodos should show .completed
+
+## Version 6.0 Requirements
+- .toggleAll: If everything's true, make everything false.
+- .toggleAll: Otherwise, make everything true.
