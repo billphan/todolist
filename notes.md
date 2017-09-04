@@ -181,3 +181,16 @@ When using a function, the input in the parenthesis are called 'arguments' not '
 
 - You can use multiple if and else statements in an if block.
 - If-Else statements.
+
+### JavaScript Data Types
+- Objects (Can be as complex as you want.)
+
+		- {} // todoList, arrays, functions
+
+- Primitives (Building blocks)
+
+		- String					// 'Look at this string!'
+		- Number/Integer	// 1, 2, 3, 4, ...
+		- Boolean					// true, false
+		- Undefined				// value that hasn't been set.
+		- Null						// 'Nothing'
