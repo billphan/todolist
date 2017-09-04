@@ -1,4 +1,4 @@
-# JavaScript Notes
+# Practical JavaScript Notes
 
 - Documenting requirements and tasks using the "It should" statement. A programming convention adopted for application requirements.
 
@@ -187,10 +187,31 @@ When using a function, the input in the parenthesis are called 'arguments' not '
 
 		- {} // todoList, arrays, functions
 
-- Primitives (Building blocks)
+- Primitives (Simple building blocks of a language. Limited data types. If it's not a primitive, it's an object.)
 
-		- String					// 'Look at this string!'
+		- Text/String			// 'Look at this string!'
 		- Number/Integer	// 1, 2, 3, 4, ...
 		- Boolean					// true, false
 		- Undefined				// value that hasn't been set.
 		- Null						// 'Nothing'
+
+- Primitive Comparisons:
+
+		hello === hello // true
+		hello === goodbye // false
+		1 === 1 // true
+		1 === 2 // false
+		true === true // true
+		true === false // false
+
+- Object Comparisons:
+
+		{1, 2, 3} === {1, 2, 3}
+		// false, because it's not the same 'internal memory address/references'. Comparing memory addresses.
+
+- When an object is created, it is saved in a unique location in computer memory. Hence the different memory address, even if the object is the same visually.
+- The only way to compare objects with a true value is to assign it to a variable:
+
+		var houseA = {};
+
+		houseA === houseA // true
