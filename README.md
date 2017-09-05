@@ -34,3 +34,8 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 ## Version 6.0 Requirements
 - .toggleAll: If everything's true, make everything false.
 - .toggleAll: Otherwise, make everything true.
+
+## Version 7.0 Requirements
+- There should be a "Display Todos" button and "Toggle All" button in the app.
+- Clicking "Display Todos" should run todoList.displayTodos.
+- Clicking "Toggle All" should run todoList.toggleAll.
