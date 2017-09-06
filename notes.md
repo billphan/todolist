@@ -215,3 +215,28 @@ When using a function, the input in the parenthesis are called 'arguments' not '
 		var houseA = {};
 
 		houseA === houseA // true
+
+### HTML Essentials
+- Keywords surrounded by angle brackets is called a tag. Each tag has an opening and closing tag, closing tag indicated by a forward slash.
+
+		<html></html>
+
+- A set of tags is called an element. <html></html> Is an HTML element. And there are more tags and elements inside of it. HTML Syntax:
+
+		<!DOCTYPE html> <!-- For Specifying HTML type. Boilerplate thing. -->
+		<html> <!-- Parent HTML Element -->
+			<head> <!-- Child Head Element -->
+				<link rel="stylesheet" href="style.css"> <!-- Child Link Tag -->
+				<script src="script.js"></script> <!-- Child Script Tag -->
+			</head> <!-- End Head Element -->
+			<body> <!-- Child Body Element -->
+				<h1>Hello, World!</h1> <!-- Child H1 Element -->
+			</body> <!-- End Body Element -->
+		</html> <!-- End HTML Element -->
+
+		<button id="button"></button> <!-- id is an attribute. Along with rel, href, etc. -->
+
+- Inside the body tag is the user interface that the users will most likely see and be interacting with.
+- DOM (Document Object Model)
+- HTML is just plain text that gives the browser information about the page, but the DOM is what the browser understands the document to be.
+- The DOM is used to inspect elements in a browser.
