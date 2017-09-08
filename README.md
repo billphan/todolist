@@ -39,3 +39,9 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - There should be a "Display Todos" button and "Toggle All" button in the app.
 - Clicking "Display Todos" should run todoList.displayTodos.
 - Clicking "Toggle All" should run todoList.toggleAll.
+
+## Version 8.0 Requirements
+- It should have working controls for .addTodo
+- It should have working controls for .changeTodo
+- It should have working controls for .delete Todo
+- It should have working controls for .toggleCompleted
