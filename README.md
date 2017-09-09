@@ -45,3 +45,8 @@ Building a basic to-do list web application programmed with Vanilla JavaScript.
 - It should have working controls for .changeTodo
 - It should have working controls for .delete Todo
 - It should have working controls for .toggleCompleted
+
+## Version 9.0 Requirements
+- There should be an list (li) element for every todo.
+- Each list element should contain .todoText
+- Each list element should show .completed
