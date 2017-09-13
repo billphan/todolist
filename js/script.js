@@ -1,3 +1,7 @@
+// MVC (Model View Controller Code Architecture)
+
+// M (Model)
+// This object represents the data as an array. And has methods that changes the data. It is the primary model 'TodoList'
 var todoList = {
   todos: [],
   addTodo: function(todoText) {
@@ -39,6 +43,8 @@ var todoList = {
   }
 };
 
+// C (Controller)
+// Solely focused on handling user interactions. Whenever someone presses a button it corresponds to a specific handler. Provide button handlers for user interface.
 var handlers = {
   addTodo: function() {
     var addTodoTextInput = document.getElementById('addTodoTextInput');
@@ -72,6 +78,8 @@ var handlers = {
   }
 };
 
+// V (View)
+// It's only concerned with showing users what the todolist looks like. It doesn't modify data in any way, it just shows the UI to the viewer.
 var view = {
   displayTodos: function() {
     var todosUl = document.querySelector('ul');
