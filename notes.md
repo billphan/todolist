@@ -240,3 +240,11 @@ When using a function, the input in the parenthesis are called 'arguments' not '
 - DOM (Document Object Model)
 - HTML is just plain text that gives the browser information about the page, but the DOM is what the browser understands the document to be.
 - The DOM is used to inspect elements in a browser.
+
+### Buzzwords Used Often in a Professional Setting!
+- Higher Order Functions:
+	-	Functions that accept other functions.
+	- Enhance the behavior of other functions.
+
+- Callback Functions:
+	- The functions that are passed into higher order functions.
